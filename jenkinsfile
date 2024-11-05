@@ -1,18 +1,18 @@
 pipeline {
   stages {
-   stage {"BUILD"} {
+   stage ("BUILD") {
    steps {
       echo "This is build stage"
    }
   }
 
-   stage {"DEPLOY"} {
+   stage ("DEPLOY") {
    steps {
       echo "This is deploy stage"
    }
   }
 
-    stage {"TEST"} {
+    stage ("TEST") {
    steps {
       echo "This is test stage"
    }
